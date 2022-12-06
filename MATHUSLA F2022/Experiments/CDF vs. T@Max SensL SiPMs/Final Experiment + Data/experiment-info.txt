@@ -1,0 +1,21 @@
+this data was recorded using the BCF 9299A 1.2 mm WLSF at different distances from the detectors, and the sensL J-series model 30035 SiPM.
+
+each folder corresponds to measurements taken to compare the leading edge timing method and the constant fraction discrimination timing method. Each folder
+contains both datasets for a given distence between the laser pulser and Channel 1.
+
+Naming of files:
+
+1) SNSL_sipm_delay_xx_tmin: data taken over 10 mins of the maximum at each 500ms interval. 
+    - xx: distance from Ch1 to the Pulse (cm)
+    - t: how long the dataset was taken for, in minutes (min)
+
+2) SNSL_sipm_trace_xx_yshots: trace data taken
+    - xx: distance from Ch1 to the Pulse (cm)
+    - y: numbers of traces taken 
+
+laser info
+trigger mode: internal
+frequency used: 100 Hz
+bias voltage: 0.3 V
+bias voltage readout: 0.25 V 
+MC temperature: 35.82 C
