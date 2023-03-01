@@ -1,3 +1,4 @@
+from importlib.util import set_package
 from multiprocessing.sharedctypes import Value
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -103,6 +104,7 @@ class Attenuation():
             means[chan] = []
             stds[chan] = []
 
+        all_amps = []
         # Plot the histogram for each file
         for f in self.datafiles:
             print(f)
@@ -119,8 +121,9 @@ class Attenuation():
             del_args = np.array([])
             for ch in channel_amps:
                 
-                del_args = np.append(del_args, np.where(channel_amps[ch] > np.quantile(channel_amps[ch], 0.95)))
-                del_args = np.append(del_args, np.where(channel_amps[ch] < np.quantile(channel_amps[ch], 0.05)))
+                #del_args = np.append(del_args, np.where(channel_amps[ch] > np.quantile(channel_amps[ch], 0.95)))
+                #del_args = np.append(del_args, np.where(channel_amps[ch] < np.quantile(channel_amps[ch], 0.05)))
+                del_args = np.append(del_args, np.where(abs(channel_amps[ch]) > 1e10))
 
             # Filter out the problem points
             for ch in channel_amps:
@@ -135,7 +138,7 @@ class Attenuation():
                     
                     mu, std = norm.fit(curr_ch)
                     if plot==True:
-                        plt.hist(curr_ch, bins=bins, density=True, alpha=0.6, color=self.colorroster[int(ch) - 1])
+                        plt.hist(curr_ch, bins=bins, density=True, alpha=0.6, color=self.colorroster[int(ch) - 1], histtype='step')
                         xmin, xmax = plt.xlim()
                         x = np.linspace(xmin, xmax, 100)
                         p = norm.pdf(x, mu, std)
@@ -148,12 +151,12 @@ class Attenuation():
                     mus, ss, wts = gaussian_fit(curr_ch, bins=bins, plot=plot)
                     means[ch].append(sorted(mus, key = lambda x:float(x)))
                     stds[ch].append(sorted(ss, key = lambda x:float(x)))
-                
+            all_amps.append(channel_amps)   
             if single_fit:
                 plt.legend()
                 plt.show()
                 
-        return means, stds
+        return means, stds, all_amps
 
     def find_single_pe(self, bins):
         means_dict, stds_dict = self.histogram(bins,single_fit=False, plot=False)
@@ -540,7 +543,7 @@ class Timing():
                 plt.xlabel("time (s)")
                 plt.ylabel("voltage (v)")
                 #plt.ylim(min(channeldata[ch]), max(channeldata[ch]))
-                plt.plot(time, channeldata[ch],color=col)
+                plt.plot(time, channeldata[ch],color=col, alpha=0.3)
                 
             counter+=1
         plt.show()
