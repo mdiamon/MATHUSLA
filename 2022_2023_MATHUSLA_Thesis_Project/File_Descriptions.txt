@@ -49,7 +49,9 @@ In a few of the notebooks, the module pycrp is imported. This is an analysis pac
 
 
 
-Thesis Presentation is a presentation of the work that was completed for the project.
+Thesis Presentation is a presentation of the work that was completed for the project. 
+
+The sample data folder contains pulse data of the SiPM pre-amp signal as well as time of flight data that can be tested with the processing functions included. For more ToF data, see https://drive.google.com/drive/u/0/folders/1U7i68lOZkdaordBtxntpSdoAqBLFz3hd?sort=13&direction=a. 
 
 
 

@@ -1,0 +1,1018 @@
+{
+  "SystemInfo": "Nuclear Instruments - CAEN DT5550W",
+  "RunMode": "Spectroscopy",
+  "AsicInfo": "0",
+  "AsicCount": "2",
+  "ApplicationVersion": "2020.02.0.20",
+  "BuildData": "01-01-00",
+  "GlobalRun": {
+    "RunId": "4",
+    "MachineRun": "4",
+    "DateTime": "2023-03-29 5:24:30 PM",
+    "PacketSize": "10 Events",
+    "T0Mode": "FIRST PHOTON",
+    "T0freq": 1,
+    "psbin": 50,
+    "HVon": true,
+    "HVVoltage": 29.5
+  },
+  "BoardConfiguration": [
+    {
+      "BoardSN": "NI1212799",
+      "ConfigPetiroc": [
+        {
+          "inputDAC": [
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 0
+            }
+          ],
+          "InputDiscriminator": [
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            }
+          ],
+          "PowerControl": {
+            "Dual_10bit_DAC": true,
+            "ADC_Ramp": true,
+            "DacDelay": true,
+            "Delay_Ramp": true,
+            "Delay_Discr": true,
+            "TemperatureSensor": true,
+            "PreAmplifier": true,
+            "DiscrT": true,
+            "DACs_6bit": true,
+            "TDC_ramp": true,
+            "Slow_Shaper": true,
+            "SCA": true,
+            "DiscrQ": true,
+            "DiscrADCT": true,
+            "DiscrADCQ": true,
+            "LVDS_Rx_Slow": true,
+            "LVDS_Rx_Fast": true,
+            "LVDS_Tx": true,
+            "InputDac": true,
+            "OtaQ": true,
+            "OtaMux": true,
+            "OtaProbe": true
+          },
+          "PulseMode": {
+            "Dual_10bit_DAC": true,
+            "ADC_Ramp": true,
+            "Input_DACs": true,
+            "Delay_Ramp": true,
+            "Delay_Discr": true,
+            "TemperatureSensor": true,
+            "PreAmplifier": true,
+            "DiscrT": true,
+            "DACs_6bit": true,
+            "TDC_ramp": true,
+            "Slow_Shaper": true,
+            "SCA": true,
+            "DiscrQ": true,
+            "DiscrADCT": true,
+            "DiscrADCQ": true,
+            "LVDS_Rx_Slow": true,
+            "LVDS_Rx_Fast": true,
+            "LVDS_Tx": true
+          },
+          "Correction": [
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            }
+          ],
+          "InputPolarity": 0,
+          "TriggerLatch": true,
+          "SlowFeedbackC": 0,
+          "SlowInputC": 3,
+          "LvdsTxmA": 3,
+          "ADC_ramp_compensation": false,
+          "Select_80_MHz": true,
+          "Enable_80_MHz": true,
+          "Raz_Ext": true,
+          "Raz_Int": true,
+          "Startb_Ext": false,
+          "Trigger_Mux": true,
+          "NOR32_Time": false,
+          "NOR32_Change": true,
+          "TriggerOut": true,
+          "Dout_Oc": false,
+          "TransmitOn_Oc": true,
+          "DAC_Q_threshold": 24,
+          "DAC_T_threshold": 224,
+          "DelayTrigger": 170,
+          "SoftwareThreshold": 0,
+          "MonitorChannel": 0,
+          "PetirocMonitorSelector": 0
+        },
+        {
+          "inputDAC": [
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 128
+            },
+            {
+              "enable": true,
+              "value": 0
+            }
+          ],
+          "InputDiscriminator": [
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            },
+            {
+              "maskDiscriminatorQ": false,
+              "maskDiscriminatorT": false,
+              "DACValue": 32
+            }
+          ],
+          "PowerControl": {
+            "Dual_10bit_DAC": true,
+            "ADC_Ramp": true,
+            "DacDelay": true,
+            "Delay_Ramp": true,
+            "Delay_Discr": true,
+            "TemperatureSensor": true,
+            "PreAmplifier": true,
+            "DiscrT": true,
+            "DACs_6bit": true,
+            "TDC_ramp": true,
+            "Slow_Shaper": true,
+            "SCA": true,
+            "DiscrQ": true,
+            "DiscrADCT": true,
+            "DiscrADCQ": true,
+            "LVDS_Rx_Slow": true,
+            "LVDS_Rx_Fast": true,
+            "LVDS_Tx": true,
+            "InputDac": true,
+            "OtaQ": true,
+            "OtaMux": true,
+            "OtaProbe": true
+          },
+          "PulseMode": {
+            "Dual_10bit_DAC": true,
+            "ADC_Ramp": true,
+            "Input_DACs": true,
+            "Delay_Ramp": true,
+            "Delay_Discr": true,
+            "TemperatureSensor": true,
+            "PreAmplifier": true,
+            "DiscrT": true,
+            "DACs_6bit": true,
+            "TDC_ramp": true,
+            "Slow_Shaper": true,
+            "SCA": true,
+            "DiscrQ": true,
+            "DiscrADCT": true,
+            "DiscrADCQ": true,
+            "LVDS_Rx_Slow": true,
+            "LVDS_Rx_Fast": true,
+            "LVDS_Tx": true
+          },
+          "Correction": [
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            },
+            {
+              "Gain": 1.0,
+              "Offset": 0
+            }
+          ],
+          "InputPolarity": 0,
+          "TriggerLatch": true,
+          "SlowFeedbackC": 0,
+          "SlowInputC": 3,
+          "LvdsTxmA": 3,
+          "ADC_ramp_compensation": false,
+          "Select_80_MHz": true,
+          "Enable_80_MHz": true,
+          "Raz_Ext": true,
+          "Raz_Int": true,
+          "Startb_Ext": false,
+          "Trigger_Mux": true,
+          "NOR32_Time": false,
+          "NOR32_Change": true,
+          "TriggerOut": true,
+          "Dout_Oc": false,
+          "TransmitOn_Oc": true,
+          "DAC_Q_threshold": 24,
+          "DAC_T_threshold": 224,
+          "DelayTrigger": 170,
+          "SoftwareThreshold": 0,
+          "MonitorChannel": 0,
+          "PetirocMonitorSelector": 0
+        }
+      ]
+    }
+  ],
+  "TargetType": "Events",
+  "TargetValue": 50000.0
+}
