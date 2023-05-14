@@ -9,8 +9,12 @@ import scipy.optimize as opt
 # ----------------------------------------------------------------------------- #
 
 # Fitting a Gaussian curve to the signals of interest
-def gauss(x,A,mu,sigma):
-    return A*np.exp(-(x-mu)**2/sigma**2)
+def gauss(p,x):
+    A = p[0]
+    mu = p[1]
+    sigma = p[2]
+
+    return A*np.exp(-0.5*(x-mu)**2/sigma**2)
 
 # ----------------------------------------------------------------------------- #
 
